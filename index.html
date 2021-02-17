@@ -1,7 +1,23 @@
 ---
 layout: main
 ---
+
 {% for post in paginator.posts %}
+{% if post.title contains "About" %}
+<article class="post" style="background-color: #FFFFCC">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>Discover <a href="https://digitalpublicgoods.net" target="_blank">digital public goods</a> where you can contribute your coding and content-creation skills towards a more just and equitable world. Browse a curated list of digital product features coming from their technical roadmaps where you can make all the difference.</p>
+  </div>
+</article>
+{% endif %}
+{% endfor %}
+
+{% for post in paginator.posts %}
+{% unless post.title contains "About" %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -9,11 +25,12 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+    <span class="post-words">{{post.projects}} projects &nbsp;&nbsp;-&nbsp;</span>
+    <span class="post-words"><b>{{post.technologies}}</b></span>
   </div>
 </article>
+{% endunless %}
 {% endfor %}
 
 {% include pagination.html %}
