@@ -57,7 +57,7 @@ Clone the ``main`` branch and follow the [Jekyll Installation Documentation](htt
 
 ## :memo: License
 
-The software in this repository is licensed under the [GNU General Public License v3.0](LICENSE
+The software in this repository is licensed under the [GNU General Public License v3.0](LICENSE)
 
 The content (`_posts/`) in this repository  is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
 
