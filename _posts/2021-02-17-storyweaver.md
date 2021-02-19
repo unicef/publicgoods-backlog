@@ -18,8 +18,8 @@ re-mixing av stories.
 * **Website**: [https://storyweaver.org.in/](https://storyweaver.org.in/)
 * **Digital Public Good**: Reviewed by the [Early Grade Reading Community of Practice](https://digitalpublicgoods.net/blog/announcing-the-first-vetted-digital-public-goods-for-foundational-literacy-and-early-grade-reading/) in July 2020.
 * **Repositories**:
-	* https://github.com/PrathamBooks/sw-core
-	* https://github.com/PrathamBooks/sw-web
+	* [https://github.com/PrathamBooks/sw-core](https://github.com/PrathamBooks/sw-core)
+	* [https://github.com/PrathamBooks/sw-web](https://github.com/PrathamBooks/sw-web)
 
 <p>&nbsp;</p>
 
