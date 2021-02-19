@@ -14,7 +14,7 @@ author-img: logo.jpg # add your photo
 about-author: Promoting digital public goods to create a more equitable world. # add description
 social-twitter: dpgalliance # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: DPGAlliance # add your Github handle
+social-github: unicef/publicgoods-backlog # add your Github handle
 social-linkedin: dpgalliance # add your Linkedin handle
 social-email: dev@digitalpublicgoods.net # add your Email address
 
@@ -22,7 +22,7 @@ social-email: dev@digitalpublicgoods.net # add your Email address
 discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-143534016-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
