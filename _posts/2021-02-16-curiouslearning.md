@@ -13,7 +13,7 @@ technologies: HTML5, Javascript
 Curious Learning works with partners to curate & localize and distribute & measure free open source apps that empowers everyone to have the opportunity to learn to read. Then we make sure we measure what works and what doesn’t work.
 
 
-* **Website**: [https://storyweaver.org.in/](https://storyweaver.org.in/)
+* **Website**: [https://www.curiouslearning.org/](https://www.curiouslearning.org/)
 * **Digital Public Good**: Reviewed by the [Early Grade Reading Community of Practice](https://digitalpublicgoods.net/blog/announcing-the-first-vetted-digital-public-goods-for-foundational-literacy-and-early-grade-reading/) in July 2020.
 * **Repository**: [https://github.com/curiouslearning/FeedTheMonster](https://github.com/curiouslearning/FeedTheMonster)
 
@@ -27,7 +27,7 @@ The app is a current Digital Public Good but was built in a closed development e
 
 **Expected Impact**: Re-implementing Feed The Monster as an H5P (another Digital Public Good!) app moves an existing Digital Public Good to a more open technology standard. This will make it easier for the open source community to contribute and improve this project collaboratively in the open.
 
-## Project 2: H5P version of the Curious Reader authoring tool and rebuilding an existing Read With Akili story as andH5P capable app
+## Project 2: H5P version of the Curious Reader authoring tool and rebuilding an existing Read With Akili story as and H5P capable app
 
 The Curious Reader platform is an interactive storytelling platform which works through creating associations between written word, spoken audio, and graphical content and explorations of those connections. This type of content helps a pre-reader with oral language skills such as vocabulary, sentence structure, and background knowledge, as well as print exposure. It also helps consolidating readers with fluency and advanced oral language knowledge.
 
